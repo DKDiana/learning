@@ -74,4 +74,53 @@ body{
     color: #273d46;
     text-transform: uppercase;
 }
-.content-bottom-info-list{}
+.content-bottom-info_link{
+	height: 44px;
+	padding: 0px 40px;
+    margin-top: 15px;
+	
+	background-color: #80b7b3;
+	-webkit-box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 5px 1px rgba(0,0,0,0.5);
+	display: inline-block;
+	line-height: 44px;
+	border-radius: 24px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 2.8px;
+}
+.content-bottom-info_link span{
+background: url('../live1/arrow.svg') right no-repeat;
+padding: 0px 30px 0px 0px;
+}
+.content-bottom-info-list li:first-child:hover{
+    text-decoration: none;
+} 
+.content-bottom-info-list li:nth-child(2):hover{
+    color: red;
+}
+.content-bottom-info-list li:nth-child(3):hover{
+    font-style: normal;
+}
+.content-bottom-info-list li:nth-child(4):hover{
+    text-transform: none;
+}
+.content-bottom-info_link:hover{
+   background-color: #273d46;
+}
+.content-bottom-info_link:active{
+    background-color: #a4ae79
+}
+.textinput {
+    border: 1px solid #a4ae79;
+    height: 50px;
+    padding: 0px 15px;
+    font-size: 18px;
+    width: 300px;
+    margin: 30px 0px 10px 0px;
+    }
+    .textinput:focus{
+        box-shadow: 0 0 10px rgba(0,0,0, 0.2);
+    }
+    
